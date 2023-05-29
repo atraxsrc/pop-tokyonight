@@ -15,12 +15,12 @@
     cursor_color = "#7aa2f7"
     cursor_color_fg = False
     font = SF Mono 11
-    foreground_color = "#73daca"
+    foreground_color = "#c0caf5"
     show_titlebar = False
     scrollbar_position = hidden
     scroll_on_keystroke = False
     scrollback_infinite = True
-    palette = "#1a1b26:#f7768e:#9ece6a:#e0af68:#62a0ea:#9a7ecc:#4abaaf:#acb0d0:#4e5173:#f7768e:#9ece6a:#e0af68:#99c1f1:#9a7ecc:#4abaaf:#acb0d0"
+    palette = "#45475a:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#bac2de:#585b70:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#a6adc8"
     bold_is_bright = True
 [layouts]
   [[default]]
