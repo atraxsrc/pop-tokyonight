@@ -2,6 +2,12 @@
   <img src="https://github.com/atraxsrc/pop-tokyonight/assets/92285717/80e6c156-1abd-44e8-a256-051efc2d01c6" width="50" height="50">
 </p>
 
+![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/b265d8db-7e6c-4a27-bba3-741818eca22e)
+![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/65612229-2fac-4039-a746-a0ded3ba3a1c)
+![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/56df6361-9642-487d-9b74-c1d23e2c0d2c)
+![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/754c9dde-e077-4ee2-b6a6-d094f245ff48)
+
+
 - DE: Gnome 42.5 [PoP!_os] 
 - Colorscheme: [Tokyonight-Dark-B](https://www.gnome-look.org/p/1681315/) for Shell | [Tokyonight-Dark-BL](https://www.gnome-look.org/p/1681315/) for Applications 
 - Shell: zsh
@@ -13,7 +19,7 @@
 
 ## Installed Extensions
 
-### ✅ installed - ON | ❌ installed - OFF
+#### ✅ installed - ON | ❌ installed - OFF
 
 - ✅ Blur my Shell		  
 - ✅ Burn My Windows		
@@ -30,7 +36,7 @@
 - ✅ Ubuntu AppIndicators	
 - ✅ User Themes
 
-### Blur my Shell - Application blur
+#### Blur my Shell - Application blur
 
 Add the following to **dconf editor** path /org/gnome/shell/extentions/blur-my-shell/application/whitelist:
 
