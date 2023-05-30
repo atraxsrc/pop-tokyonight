@@ -3,7 +3,7 @@
 </p>
 
 ![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/b265d8db-7e6c-4a27-bba3-741818eca22e)
-![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/65612229-2fac-4039-a746-a0ded3ba3a1c)
+![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/98d312e1-1303-4bb7-bc69-133379c4ab0a)
 ![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/56df6361-9642-487d-9b74-c1d23e2c0d2c)
 ![image](https://github.com/atraxsrc/pop-tokyonight/assets/92285717/754c9dde-e077-4ee2-b6a6-d094f245ff48)
 
