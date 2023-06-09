@@ -72,7 +72,9 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(sudo git history-substring-search colored-man-pages zsh-autosuggestions zsh-syntax-highlighting)
 
-
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+export HISTFILE=~/.cache/.zsh_history
+export SUDO_AS_ADMIN_SUCCESSFUL=~/new_location/.sudo_as_admin_successful
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
