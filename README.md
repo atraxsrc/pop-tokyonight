@@ -10,7 +10,7 @@
 
 - DE: Gnome 42.5 [PoP!_os] 
 - Colorscheme: [Tokyonight-Dark-B](https://www.gnome-look.org/p/1681315/) for Shell | [Tokyonight-Dark-BL](https://www.gnome-look.org/p/1681315/) for Applications 
-- Cursor: [Hacked-Sky](https://www.gnome-look.org/p/1099962), [Dropbox](https://www.dropbox.com/s/pf22mi9es4wiz75/Hacked-Sky.tgz?dl=0)
+- Cursor: [Hacked-Sky](https://www.gnome-look.org/p/1099962) | [Dropbox](https://www.dropbox.com/s/pf22mi9es4wiz75/Hacked-Sky.tgz?dl=0) download
 - Shell: zsh
 - Wallpaper: [custom](https://github.com/atraxsrc/tokyonight-wallpapers/blob/main/tokyo-night33hen.jpeg)
 - Gnome extensions: see list below
