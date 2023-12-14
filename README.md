@@ -42,5 +42,5 @@
 Add the following to **dconf editor** path /org/gnome/shell/extentions/blur-my-shell/application/whitelist:
 
 ```dconf
-['X-terminal-emulator', 'gnome-extensions-app', 'Gnome-terminal', 'Org.gnome.Nautilus', 'Gnome-control-center', 'TelegramDesktop', 'Dconf-editor', 'Gnome-calculator', 'Gedit', 'Bitwarden', 'Gnome-system-monitor', 'firefox', 'org.gnome.Shell.Extensions', 'Io.elementary.appcenter', 'discord', 'Synaptic', 'Xdm-app', 'stacer', 'obsidian', 'Timeshift-gtk', 'VSCodium']
+['X-terminal-emulator', 'gnome-extensions-app', 'Gnome-terminal', 'Org.gnome.Nautilus', 'Gnome-control-center', 'TelegramDesktop', 'Dconf-editor', 'Gnome-calculator', 'Gedit', 'Bitwarden', 'Gnome-system-monitor', 'Firefox', 'org.gnome.Shell.Extensions', 'Io.elementary.appcenter', 'Discord', 'Synaptic', 'Xdm-app', 'stacer', 'Joplin', 'Timeshift-gtk', 'VSCodium']
 ```
