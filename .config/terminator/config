@@ -9,12 +9,12 @@
 [profiles]
   [[default]]
     icon_bell = False
-    background_color = "#0c0c13"
+    background_color = "#1e1e2e"
     background_darkness = 0.91
     background_type = transparent
     cursor_color = "#7aa2f7"
     cursor_color_fg = False
-    font = SF Mono 11
+    font = JetBrainsMono Nerd Font 11
     foreground_color = "#c0caf5"
     show_titlebar = False
     scrollbar_position = hidden
