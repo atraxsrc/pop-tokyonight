@@ -36,7 +36,10 @@
 - ✅ System76 Power		
 - ✅ Ubuntu AppIndicators	
 - ✅ User Themes
-
+- ✅ Impatience
+- ✅ Just Perfection
+- ✅ Net Speed Simplifier  
+  
 #### Blur my Shell - Application blur
 
 Add the following to **dconf editor** path /org/gnome/shell/extentions/blur-my-shell/application/whitelist:
