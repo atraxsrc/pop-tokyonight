@@ -1,0 +1,16 @@
+{
+	"manifest_version": 1,
+	"id": "plugin.calebjohn.rich-markdown",
+	"app_min_version": "2.7",
+	"version": "0.13.3",
+	"name": "Rich Markdown",
+	"description": "Helping you ditch the markdown viewer for good.",
+	"author": "Caleb John",
+	"homepage_url": "https://github.com/CalebJohn/joplin-rich-markdown#readme",
+	"repository_url": "https://github.com/CalebJohn/joplin-rich-markdown",
+	"keywords": [
+		"editor",
+		"visual"
+	],
+	"_package_hash": "a3704675f93a1d6ee749137639231b95"
+}
