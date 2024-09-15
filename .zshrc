@@ -107,4 +107,3 @@ source $ZSH/oh-my-zsh.sh
 alias ls='lsd'
 alias vim=nvim
 
-
