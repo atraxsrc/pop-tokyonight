@@ -10,7 +10,7 @@
   [[default]]
     icon_bell = False
     background_color = "#1e1e2e"
-    background_darkness = 0.91
+    background_darkness = 0.95
     background_type = transparent
     cursor_color = "#7aa2f7"
     cursor_color_fg = False
@@ -27,6 +27,7 @@
     [[[child1]]]
       parent = window0
       type = Terminal
+      profile = default
     [[[window0]]]
       parent = ""
       type = Window
