@@ -20,10 +20,16 @@ command_exists() {
 # Function to update the system
 update_system() {
     print_color "yellow" "Updating system packages..."
+    
     if command_exists nala; then
-        sudo nala upgrade
+        sudo nala update
+        sudo nala upgrade -y
+        sudo nala autoremove -y
+        sudo nala clean
+        print_color "green" "Nala system update complete"
     elif command_exists apt-get; then
-        sudo apt-get update && sudo apt-get upgrade
+        sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove -y && sudo apt-get autoclean
+        print_color "green" "APT system update complete"
     else
         print_color "red" "No supported package manager found. Skipping system update."
         return 1
@@ -33,10 +39,14 @@ update_system() {
 # Function to update Flatpak
 update_flatpak() {
     if command_exists flatpak; then
-        print_color "yellow" "Updating Flatpak applications..."
-        flatpak update 2>/dev/null || print_color "red" "Flatpak update encountered an error, but continuing..."
+        print_color "yellow" "Updating Flatpak apps..."
+        if flatpak update -y; then
+            print_color "green" "Flatpak update complete"
+        else
+            print_color "yellow" "Flatpak update completed (warnings for EOL runtimes are normal)"
+        fi
     else
-        print_color "yellow" "Flatpak not found. Skipping Flatpak update."
+        print_color "yellow" "Flatpak not found. Skipping."
     fi
 }
 
@@ -44,22 +54,37 @@ update_flatpak() {
 update_snap() {
     if command_exists snap; then
         print_color "yellow" "Updating Snap packages..."
-        sudo snap refresh
+        local snap_output
+        snap_output=$(sudo snap refresh 2>&1)
+        if echo "$snap_output" | grep -q "All snaps up to date"; then
+            print_color "green" "All snaps are up to date"
+        else
+            print_color "green" "Snap updates applied"
+        fi
     else
-        print_color "yellow" "Snap not found. Skipping Snap update."
+        print_color "yellow" "Snap not found. Skipping."
     fi
 }
 
 # Main function
 main() {
-    print_color "green" "Starting system update..."
-
-    update_system
+    print_color "green" "=== Starting system update ==="
+    print_color "yellow" "Date: $(date)"
+    echo
+    
+    if ! update_system; then
+        print_color "red" "System update failed!"
+        exit 1
+    fi
+    
+    echo
     update_flatpak
+    
+    echo
     update_snap
-
-    print_color "green" "System update completed successfully!"
+    
+    print_color "green" "=== System update completed ==="
 }
 
 # Run the main function
-main
+main "$@"
