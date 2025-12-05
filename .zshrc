@@ -107,3 +107,5 @@ source $ZSH/oh-my-zsh.sh
 alias ls='lsd'
 alias vim=nvim
 
+
+export PATH="$PATH:/usr/local/bin"
